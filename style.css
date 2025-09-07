@@ -4,7 +4,7 @@
     font-size: 1.1rem;
     border-radius: 2.5px;
     display: inline-block;
-    float: left;
+    float: center;
 }
 .about {
     display: inline-block;
