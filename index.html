@@ -25,12 +25,12 @@
 			<!--<label for="lastName">Last Name</label>-->
 			<input type="text" class="form-CTRL" id="lastName" required value="Last Name">
 			<!--<label for="Email">Email</label>-->
-			<input type="text" class="form-CTRL" id="Email" required value="Email">
+			<input type="email" class="form-CTRL" id="Email" required value="Email">
 			<!-- add number attending
 				do you need shabbat Hospitality?
 				
 			-->
-			<label for="numbersform">Number Attending:</label><input list="numbers">
+			<label for="number">Number Attending:</label><input id="number" type="number" min="1" max="10">
 			<datalist id="numbers">
 				<option value="1">
 				<option value="2">
