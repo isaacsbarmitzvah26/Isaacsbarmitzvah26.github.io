@@ -4,11 +4,13 @@
     font-size: 1.1rem;
     border-radius: 2.5px;
     display: inline-block;
+    float: left;
 }
 .about {
     display: inline-block;
     font-family: helvetica;
     font-size: 1.2rem;
+    float: left;
 }
 h1 {
     font-size: 3rem;
