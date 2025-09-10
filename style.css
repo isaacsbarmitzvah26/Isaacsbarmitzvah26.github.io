@@ -1,3 +1,20 @@
+:root {
+    --tx-1: #000000;
+    --bg-1: #EDEDED;
+    --ac-1: #FFAAFF;
+    --ac-2: #FFFFAA;
+    --svg-light: url('light.svg');
+    --svg-dark: url('dark.svg');
+}
+.img-container {
+    background-image: var(--svg-light);
+}
+:root {
+    --tx-1: #AADDFF;
+    --bg-1: #0F0F0F;
+    --ac-1: #AA00AA;
+    --ac-2: #AAAA00;
+}
 .date {
     background-color: #AAAAAA;
     font-family: helveltica;
@@ -5,22 +22,22 @@
     border-radius: 2.5px;
     display: inline-block;
     float: center;
-    color: #000000;
+    color: var(--tx-1);
 }
 .about {
     display: inline-block;
     font-family: helvetica;
     font-size: 1.2rem;
     float: left;
-    color: #000000;
+    color: var(--tx-1);
 }
 h1 {
     font-size: 3rem;
     font-family: helvetica;
     border-bottom: 5px solid #000000;
     text-shadow: 3px 3px 0 #AAAAAA;
-    color: #000000;
+    color: var(--tx-1);
 }
 body {
-    background-color: #FFFFFF;
+    background-color: var(--bg-1);
 }
