@@ -9,12 +9,16 @@
 .img-container {
     background-image: var(--svg-light);
 }
-:root {
-    --tx-1: #AADDFF;
-    --bg-1: #0F0F0F;
-    --ac-1: #AA00AA;
-    --ac-2: #AAAA00;
-}
+@media (prefers-color-scheme: dark)
+    :root {
+        --tx-1: #AADDFF;
+        --bg-1: #0F0F0F;
+        --ac-1: #AA00AA;
+        --ac-2: #AAAA00;
+    }
+    .img-container {
+        background-image: var(--svg-dark);
+    }
 .date {
     background-color: #AAAAAA;
     font-family: helveltica;
@@ -40,4 +44,14 @@ h1 {
 }
 body {
     background-color: var(--bg-1);
+}
+@media (prefers-color-scheme: dark) {
+    .img-container {
+        background-image: var(--svg-dark);
+    }
+}
+@media (prefers-color-scheme: light) {
+    .img-container {
+        background-image: var(--svg-light);
+    }
 }
